@@ -1,0 +1,23 @@
+---
+layout: index
+title: Main page
+---
+{% for p in site.articles %}
+
+  <section class="post">
+    <h3 class="post_header">
+      <a href="{{ p.url }}">{{ p.title }}</a>
+    </h3>
+    <div class="post_info">
+      5 mins (250 words)
+    </div>
+    <p class="post_content">
+      {{ p.excerpt }}  
+    </p>
+    <div class="post_link">
+      <a href="#">Continue reading...</a>
+    </div>
+  </section>
+
+{% endfor %}
+

@@ -1,0 +1,17 @@
+.pagination {
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+
+.pagination a {
+  color: black;
+  text-decoration: none;
+  vertical-align: middle;
+  margin: 0px 5px 0px 5px;
+}
+
+.pagination_selected {
+  font-size: 1.5em;
+  font-weight: bold;
+}
